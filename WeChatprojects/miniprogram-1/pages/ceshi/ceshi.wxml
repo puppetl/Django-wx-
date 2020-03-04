@@ -1,0 +1,17 @@
+<!--pages/ceshi/ceshi.wxml-->
+<view wx:for='{{array}}'>{{index}} {{item.msg}}</view>
+<view bindlongpress="changan">长按</view>
+<view>-*20</view>
+<view>点击事件</view>
+<view>
+<view bindtap="dianji">点击</view>
+<view bindtap="tnr">test net request</view>
+  <view>
+    <button bindtap="save_cash">保存缓存</button>
+    <button bindtap="read_cash">读取缓存</button>
+    <button bindtap="remove_cash">删除缓存</button>
+    <button bindtap="clear_cash">清除缓存</button>
+  </view>
+</view>
+
+

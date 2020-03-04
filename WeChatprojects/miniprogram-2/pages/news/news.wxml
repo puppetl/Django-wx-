@@ -1,0 +1,54 @@
+<!--pages/news/news.wxml-->
+
+<view wx:for="{{list}}" wx:key="index">
+ 
+<view class="item">
+ 
+<view class="number-wrapper">
+ 
+<!--新闻所属分类-->
+ 
+<text class="name">{{item.category}}</text>
+ 
+</view>
+ 
+<view class="number-wrapper">
+ 
+<!--新闻标题-->
+ 
+<text class="name">{{item.title}}</text>
+ 
+</view>
+ 
+<!--新闻图片-->
+ 
+<image class="img" src="{{item.thumbnail_pic_s}}" mode="scaleToFill"></image>
+ 
+<!--新闻链接-->
+ 
+<view class="number-wrapper">
+ 
+<text class="name">{{item.url}}</text>
+ 
+</view>
+ 
+<!--日期-->
+ 
+<view class="number-wrapper">
+ 
+<text class="name">{{item.date}}</text>
+ 
+</view>
+ 
+<!--来源-->
+ 
+<view class="number-wrapper">
+ 
+<text class="name">{{item.author_name}}</text>
+ 
+</view>
+ 
+</view>
+ 
+</view>
+

@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/apps/apps",
+    "pages/zfb/zfb",
+    "pages/wx1/wx1",
+    "pages/news/news",
+    "pages/duanzi/duanzi",
+    "pages/picker/picker",
+    "pages/homepage/homepage"
+        
+    
+        
+   
+        
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/login/login",
+        "text": "登录"
+      },
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页"
+
+    },
+    {
+      "pagePath": "pages/apps/apps",
+      "text": "应用"
+
+    },
+    {
+      "pagePath": "pages/homepage/homepage",
+      "text": "个人"
+    }
+    
+    ]
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

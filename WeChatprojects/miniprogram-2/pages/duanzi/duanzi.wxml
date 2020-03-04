@@ -1,0 +1,6 @@
+<!--pages/duanzi/duanzi.wxml-->
+<view wx:for="{{ list }}" wx:key="index">
+<view>第{{index+1}}篇</view>
+
+<text>{{ item.content}}</text>
+</view>
