@@ -1,0 +1,6 @@
+/__pycache__/
+db.sqlite3
+/.idea
+*bak
+secret_settings.py
+venv
