@@ -1,0 +1,6 @@
+Django里sqlite3数据迁移到mysql:https://blog.csdn.net/puppetljc/article/details/104634584
+Django和小程序的总结:
+https://blog.csdn.net/puppetljc/article/details/104620166
+另附总:
+https://blog.csdn.net/puppetljc
+再附上源码GitHub:https://github.com/puppetl/Django-wx-.git
